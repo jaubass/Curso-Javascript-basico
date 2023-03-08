@@ -4,7 +4,8 @@
   "description": "Mi primer proyecto con Javascript",
   "main": "index.js",
   "scripts": {
-    "saludar" : "node hola_mundo.js",
+    "start": "index.js",
+    "saludar": "node hola_mundo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jaume Fite",
