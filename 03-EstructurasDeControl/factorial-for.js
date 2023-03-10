@@ -1,6 +1,6 @@
 const dato = 10; // Número del que queremos calcular el factorial
-let r = 1;
+let factorial = 1;
 for(let i = dato; i>0; i--){
-    r *= i;
+    factorial = factorial * i;
 }
-console.log(r);
+console.log("El factorial de " + dato + " es: " + factorial);
