@@ -6,4 +6,4 @@ while(i > 1){
     dato *= i;
     i--;
 }
-console.log("El factorial es " + dato);
+console.log("El factorial es: " + dato);
