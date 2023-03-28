@@ -28,3 +28,18 @@ const favoriteFilms = [
 console.log("=================================================================")
 
 console.log("Una nueva lista que contenga los directores de la lista de películas original (utilizando map)");
+// Recorrer lista con foreach
+favoriteFilms.forEach(v => {
+    console.log(v)
+});
+
+const newArray = favoriteFilms.map((director, indice) => {
+    return `${indice +1} - ${director}`
+})
+console.log(newArray)
+
+console.log("=================================================================")
+console.log("Una nueva lista que contenga los títulos de la lista de películas original (utilizando map)");
+
+let tituloPeli = favoriteFilms.map(title => title.tituloPeli)
+console.log(tituloPeli)
