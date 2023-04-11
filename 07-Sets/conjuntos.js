@@ -5,6 +5,7 @@ Crea un archivo llamado conjuntos.js que contenga las siguientes líneas
 - Modifica el Set original añadiendo el nombre "Javascript" (ya que empieza a formar parte de tu vida ;)
 */
 
+console.log("========Crear Set========")
 const array = [
     {nombre: 'Jaco', edad: 46},
     {nombre: 'Marcus', edad: 62},
@@ -15,7 +16,11 @@ console.log(miFamily)
 
 // .add()
 console.log("========Añadir un valor en el Set========")
-miFamily.add('Jau')
+miFamily.add('Jaco')
+console.log(miFamily)
+
+console.log("========Añadir un valor en el Set========")
+miFamily.add('Javascript')
 console.log(miFamily)
 
 // El Set solo muestra valores únicos
@@ -31,7 +36,7 @@ console.log(miFamily)
 
 // .has()
 console.log("========Buscar un valor en el Set========")
-console.log(miFamily.has(46))
+console.log(miFamily.has('Jaco'))
 
 // .size
 console.log("========Buscar el tamaño del Set========")
