@@ -27,3 +27,25 @@ const logger = winston.createLogger({
 logger.info("Info")
 logger.warn("Advertencia")
 logger.error("Error")
+
+let param = 1
+
+function test(param = 1) {
+
+    try {
+
+        if (param < 10)
+        console.log("Its here")
+    } catch {
+        logger.warn("El numero no e valido")
+    }
+}
+  
+
+setTimeout(function() {
+  try {
+    noSuchVariable; // try...catch maneja el error!
+  } catch {
+    alert( "El error se detecta aquí!" );
+  }
+}, 1000);
