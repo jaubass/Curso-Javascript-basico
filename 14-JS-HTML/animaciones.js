@@ -6,3 +6,9 @@ new TypeIt("#myElement", {
     $("h1").hide()
 
     
+const boton = document.querySelector("#btn")
+
+boton.addEventListener("click", () => {
+    alert("Se ha hecho click")
+})
+
